@@ -5,7 +5,7 @@ verificar todo lo que la IA produce y de poder explicarlo sin ella.**
 
 | # | Fecha | Integrante | Herramienta | Propósito (investigar, depurar, alternativas...) | Consulta (resumen) | ¿Qué se usó de la respuesta? | ¿Cómo se verificó? | Errores o suposiciones detectadas en la respuesta |
 |---|---|---|---|---|---|---|---|---|
-| 1 | | | | | | | | |
+| 1 | 2026-11-18 | Integrante responsable por confirmar | Copilot SDK | Revisar, probar y documentar la estrategia A | Ejecutar la línea base y seguir el protocolo de medición del equipo | Separar preparación y cronómetro; agregar pruebas de resultados conocidos; registrar entorno y analizar diez corridas | Pruebas unitarias, comando de A, prueba de humo, CSV formal con 30 tiempos y 3 mediciones de memoria | La primera ejecución cronometró también la preparación y se descartó; frecuencia, temperatura y energía no estaban disponibles, así que no se reportaron |
 
 ## Reflexión individual (Clase 5, una por integrante)
 - **Nombre:**

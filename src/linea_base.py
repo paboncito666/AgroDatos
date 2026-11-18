@@ -42,6 +42,7 @@ def ejecutar(lotes) -> int:
 
 
 if __name__ == "__main__":
+    lotes = preparar(1_000_000)
     t0 = time.perf_counter()
-    print("Primos menores que 1 000 000:", ejecutar(preparar(1_000_000)))   # 78 498
+    print("Primos menores que 1 000 000:", ejecutar(lotes))   # 78 498
     print(f"Tiempo: {time.perf_counter() - t0:.2f} s")
