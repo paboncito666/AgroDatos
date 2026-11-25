@@ -13,6 +13,9 @@ class TestCorreccion(unittest.TestCase):
         d = linea_base.preparar(20000)
         self.assertEqual(linea_base.ejecutar(d), 2262)
 
+    def test_linea_base_entrada_vacia(self):
+        self.assertEqual(linea_base.ejecutar([]), 0)
+
     # TODO (R2): una prueba por estrategia que compare su resultado con la línea base
     # def test_estrategia_b_igual_a_base(self):
     #     d = linea_base.preparar(20000)
