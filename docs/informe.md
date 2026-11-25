@@ -36,7 +36,17 @@ El resumen CSV generado es [`../resultados/resumen_estadistico.csv`](../resultad
 
 La revisión exploratoria de Tukey señaló 0,449336 s (repetición 7) para n=300 000 y 5,468558 s (repetición 3) para n=2 000 000. No hay causas confirmadas en la bitácora; se conservan todas las observaciones. Para n=300 000, una sensibilidad hipotética sin la repetición 7 daría media 0,355781 s y CV 9,30 %, frente a 0,365137 s y 11,77 % usando todos los datos. El resumen oficial utiliza siempre las diez corridas. Detalles: [`analisis_atipicos.md`](analisis_atipicos.md).
 
-Los gráficos se incorporarán en su etapa correspondiente de este análisis.
+### Tiempo vs. tamaño de entrada
+
+Las escalas de ambos ejes son logarítmicas. Los puntos representan la media de diez corridas; las barras muestran IC95 % de la media. El archivo es reproducible mediante `python herramientas\graficar_resultados.py resultados\resultados.csv`.
+
+![Tiempo de ejecución de A frente a n, escala log-log e IC95 %](../resultados/graficos/tiempo_vs_n.svg)
+
+### Estrategias para el tamaño máximo
+
+La gráfica muestra el único resultado disponible para n=2 000 000. No es una comparación entre estrategias: B y C todavía no están implementadas ni medidas.
+
+![Tiempo de estrategia para n máximo con IC95 %, solo A disponible](../resultados/graficos/estrategias_n_maximo.svg)
 
 ## 5. Discusión
 

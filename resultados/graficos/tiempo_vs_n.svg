@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600">
+<title>Estrategia A: tiempo de ejecución vs. n</title>
+<desc>Gráfica log-log de las medias de tiempo con intervalos de confianza del 95 por ciento.</desc>
+<rect width="100%" height="100%" fill="white"/>
+<text x="480.0" y="38.0" font-family="Arial,sans-serif" font-size="21" fill="#202b3c" text-anchor="middle">Estrategia A: tiempo de ejecución vs. n (escala log-log)</text>
+<text x="480.0" y="65.0" font-family="Arial,sans-serif" font-size="14" fill="#202b3c" text-anchor="middle">Barras: IC 95 % de la media (t de Student)</text>
+<line x1="105" y1="483.2" x2="900" y2="483.2" stroke="#d8dee8"/>
+<text x="93.0" y="488.2" font-family="Arial,sans-serif" font-size="14" fill="#202b3c" text-anchor="end">0.316228</text>
+<line x1="105" y1="326.2" x2="900" y2="326.2" stroke="#d8dee8"/>
+<text x="93.0" y="331.2" font-family="Arial,sans-serif" font-size="14" fill="#202b3c" text-anchor="end">1</text>
+<line x1="105" y1="169.2" x2="900" y2="169.2" stroke="#d8dee8"/>
+<text x="93.0" y="174.2" font-family="Arial,sans-serif" font-size="14" fill="#202b3c" text-anchor="end">3.16228</text>
+<line x1="105.0" y1="90" x2="105.0" y2="490" stroke="#d8dee8"/>
+<text x="105.0" y="515.0" font-family="Arial,sans-serif" font-size="14" fill="#202b3c" text-anchor="middle">300,000</text>
+<line x1="609.5" y1="90" x2="609.5" y2="490" stroke="#d8dee8"/>
+<text x="609.5" y="515.0" font-family="Arial,sans-serif" font-size="14" fill="#202b3c" text-anchor="middle">1,000,000</text>
+<line x1="900.0" y1="90" x2="900.0" y2="490" stroke="#d8dee8"/>
+<text x="900.0" y="515.0" font-family="Arial,sans-serif" font-size="14" fill="#202b3c" text-anchor="middle">2,000,000</text>
+<line x1="105" y1="490" x2="900" y2="490" stroke="#202b3c"/>
+<line x1="105" y1="90" x2="105" y2="490" stroke="#202b3c"/>
+<text x="502.5" y="575.0" font-family="Arial,sans-serif" font-size="15" fill="#202b3c" text-anchor="middle">n (límite exclusivo, números)</text>
+<text x="25" y="290.0" transform="rotate(-90 25 290.0)" font-family="Arial,sans-serif" font-size="15" fill="#202b3c" text-anchor="middle">Tiempo de pared (s)</text>
+<path d="M 105.0 463.6 L 609.5 226.4 L 900.0 106.1" fill="none" stroke="#1769aa" stroke-width="3"/>
+<line x1="105.0" y1="452.6" x2="105.0" y2="475.6" stroke="#1769aa" stroke-width="2"/>
+<line x1="97.0" y1="452.6" x2="113.0" y2="452.6" stroke="#1769aa" stroke-width="2"/>
+<line x1="97.0" y1="475.6" x2="113.0" y2="475.6" stroke="#1769aa" stroke-width="2"/>
+<circle cx="105.0" cy="463.6" r="6" fill="#1769aa"/>
+<line x1="609.5" y1="218.7" x2="609.5" y2="234.6" stroke="#1769aa" stroke-width="2"/>
+<line x1="601.5" y1="218.7" x2="617.5" y2="218.7" stroke="#1769aa" stroke-width="2"/>
+<line x1="601.5" y1="234.6" x2="617.5" y2="234.6" stroke="#1769aa" stroke-width="2"/>
+<circle cx="609.5" cy="226.4" r="6" fill="#1769aa"/>
+<line x1="900.0" y1="103.0" x2="900.0" y2="109.2" stroke="#1769aa" stroke-width="2"/>
+<line x1="892.0" y1="103.0" x2="908.0" y2="103.0" stroke="#1769aa" stroke-width="2"/>
+<line x1="892.0" y1="109.2" x2="908.0" y2="109.2" stroke="#1769aa" stroke-width="2"/>
+<circle cx="900.0" cy="106.1" r="6" fill="#1769aa"/>
+</svg>

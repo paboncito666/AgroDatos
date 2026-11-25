@@ -56,9 +56,11 @@ El analizador original de la clase 5 no estaba disponible entre los materiales l
 
 ```powershell
 python herramientas\analizar_resultados.py resultados\resultados.csv --salida-csv resultados\resumen_estadistico.csv
+python herramientas\graficar_resultados.py resultados\resultados.csv
 ```
 
 Los IC95 % usan t de Student; los resultados y su interpretación se detallan en [`docs/informe.md`](docs/informe.md).
+Los SVG se guardan en `resultados/graficos/` y muestran media e IC95 %. La gráfica de estrategias para n máximo evidencia que solo A está disponible; no simula resultados para B/C.
 
 ## 6. Verificación y flujo de trabajo
 
