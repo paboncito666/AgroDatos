@@ -50,7 +50,9 @@ La gráfica muestra el único resultado disponible para n=2 000 000. No es una c
 
 ## 5. Discusión
 
-El contraste de hipótesis, la explicación física y las amenazas a la validez se desarrollarán tras completar los pasos 3–6.
+El proceso usa casi un núcleo durante las corridas. Entre n=300 000 y n=2 000 000, el tiempo medio aumentó 13,76 veces para un aumento de n de 6,67 veces (exponente empírico ≈1,38 en estos extremos). La prueba de primalidad recorre divisores hasta encontrar uno o alcanzar la raíz cuadrada del candidato, por lo que el costo por entero puede crecer. No se midieron operaciones ni frecuencia, así que esta es una explicación compatible con el código, no una medición directa de ciclos.
+
+La memoria `tracemalloc` (0,003 MiB) empieza después de preparar la lista de lotes y solo registra asignaciones durante `ejecutar`; no representa el uso completo de memoria. No hubo medición de ancho de banda, energía, potencia, frecuencia o temperatura. Por tanto no se infieren ahorro de energía ni calentamiento/estrangulamiento térmico observados. Véase [`explicacion_fisica.md`](explicacion_fisica.md) para magnitudes, supuestos y limitaciones.
 
 ## 6. Propuesta de mejora para la empresa
 

@@ -93,6 +93,7 @@ Todos participan en la comprensión de la física y el código; los nombres qued
 - [Auditoría del CSV](docs/auditoria_datos.md)
 - [Revisión de atípicos](docs/analisis_atipicos.md)
 - [Contraste de hipótesis](docs/contraste_hipotesis.md)
+- [Explicación física](docs/explicacion_fisica.md)
 - [Análisis estadístico y discusión](docs/informe.md)
 
 Las estrategias B y C, su comparación y las conclusiones de rendimiento del equipo siguen pendientes.
