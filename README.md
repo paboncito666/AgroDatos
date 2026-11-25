@@ -27,8 +27,8 @@ Ver [docs/hipotesis.md](docs/hipotesis.md).
 | Id | Estrategia | Idea principal | Efecto físico esperado | Responsable |
 |---|---|---|---|---|
 | A | Línea base | (situación inicial) | — | R2 |
-| B | | | | R3 |
-| C | | | | R3 |
+| B | Procesos por lote | Un proceso toma cada lote de 50 000 números. | Puede bajar t al usar varios núcleos; crear y coordinar procesos añade sobrecosto. | R3 |
+| C | Procesos por grupo | Cada proceso toma un grupo contiguo de lotes. | Menos tareas reduce coordinación, pero un reparto grueso puede dejar núcleos ociosos. | R3 |
 
 ## 6. Cómo reproducir
 ```bash
@@ -37,7 +37,7 @@ pip install -r requirements.txt                          # opcional: psutil, mat
 python -m src.linea_base                                 # situación inicial
 python -m unittest discover -s pruebas                   # corrección
 python -m experimentos.ejecutar_experimento              # experimento formal -> resultados/resultados.csv
-python ruta/a/analizar_resultados.py resultados/resultados.csv
+python analizar_resultados.py resultados/resultados.csv
 ```
 
 ## 7. Integrantes y roles
