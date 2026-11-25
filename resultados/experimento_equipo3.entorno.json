@@ -1,0 +1,16 @@
+{
+  "fecha": "2026-11-25T18:23:10",
+  "sistema": "Windows 11",
+  "maquina": "AMD64",
+  "procesador": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+  "nucleos_logicos": 8,
+  "python": "3.14.6",
+  "implementacion": "CPython",
+  "psutil": null,
+  "sensores_disponibles": {
+    "frecuencia": false,
+    "temperatura": false,
+    "energia_rapl": false,
+    "psutil": false
+  }
+}
