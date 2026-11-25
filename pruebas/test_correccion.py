@@ -5,10 +5,24 @@ Una estrategia más rápida pero incorrecta NO es una mejora.
 
 import unittest
 
-from src import linea_base
+from src import linea_base, estrategia_b, estrategia_c
 
 
 class TestCorreccion(unittest.TestCase):
+    def test_estrategia_b_entrada_vacia(self):
+        self.assertEqual(estrategia_b.ejecutar([]), 0)
+
+    def test_estrategia_c_entrada_vacia(self):
+        self.assertEqual(estrategia_c.ejecutar([]), 0)
+
+    def test_estrategia_b_igual_a_base(self):
+        d = linea_base.preparar(120000)
+        self.assertEqual(estrategia_b.ejecutar(d), linea_base.ejecutar(d))
+
+    def test_estrategia_c_igual_a_base(self):
+        d = linea_base.preparar(120000)
+        self.assertEqual(estrategia_c.ejecutar(d), linea_base.ejecutar(d))
+
     def test_linea_base_ejecuta(self):
         d = linea_base.preparar(20000)
         self.assertEqual(linea_base.ejecutar(d), 2262)
