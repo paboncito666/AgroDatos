@@ -12,7 +12,7 @@ AgroDatos requiere contar primos y la implementación A usa un solo proceso. En 
 
 ## 2. Hipótesis
 
-La tabla de hipótesis del equipo estaba vacía antes de este análisis. No se formulan hipótesis retrospectivas con estos datos; el contraste formal queda pendiente de una predicción registrada antes de una nueva medición. Véase [`hipotesis.md`](hipotesis.md).
+La tabla de hipótesis del equipo estaba vacía antes de este análisis. No se formulan hipótesis retrospectivas con estos datos; el contraste formal queda pendiente de una predicción registrada antes de una nueva medición. El verificador local reporta H1–H3 como no evaluables; véase [`contraste_hipotesis.md`](contraste_hipotesis.md) y [`hipotesis.md`](hipotesis.md).
 
 ## 3. Método
 

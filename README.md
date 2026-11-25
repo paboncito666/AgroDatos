@@ -57,10 +57,12 @@ El analizador original de la clase 5 no estaba disponible entre los materiales l
 ```powershell
 python herramientas\analizar_resultados.py resultados\resultados.csv --salida-csv resultados\resumen_estadistico.csv
 python herramientas\graficar_resultados.py resultados\resultados.csv
+python herramientas\verificar_hipotesis.py docs\hipotesis.md
 ```
 
 Los IC95 % usan t de Student; los resultados y su interpretación se detallan en [`docs/informe.md`](docs/informe.md).
 Los SVG se guardan en `resultados/graficos/` y muestran media e IC95 %. La gráfica de estrategias para n máximo evidencia que solo A está disponible; no simula resultados para B/C.
+El verificador de hipótesis finaliza con código 2 si no hay predicciones completas previas; en esta entrega ese estado es intencional y se documenta en [`docs/contraste_hipotesis.md`](docs/contraste_hipotesis.md).
 
 ## 6. Verificación y flujo de trabajo
 
@@ -90,6 +92,7 @@ Todos participan en la comprensión de la física y el código; los nombres qued
 - [Decisiones técnicas](docs/decisiones.md) · [Uso de IA](docs/uso_ia.md) · [Informe](docs/informe.md)
 - [Auditoría del CSV](docs/auditoria_datos.md)
 - [Revisión de atípicos](docs/analisis_atipicos.md)
+- [Contraste de hipótesis](docs/contraste_hipotesis.md)
 - [Análisis estadístico y discusión](docs/informe.md)
 
 Las estrategias B y C, su comparación y las conclusiones de rendimiento del equipo siguen pendientes.
