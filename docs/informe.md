@@ -56,11 +56,11 @@ La memoria `tracemalloc` (0,003 MiB) empieza después de preparar la lista de lo
 
 ## 6. Propuesta de mejora para la empresa
 
-Pendiente del contraste entre A y al menos dos estrategias alternativas. No se recomienda desplegar paralelismo a partir de este conjunto de referencia solamente.
+Mantener A como referencia y ejecutar un piloto con procesos antes de decidir despliegue. Criterio propuesto (no medido): exigir al menos 20 % de reducción media y que el IC95 % de la reducción pareada sea positivo. Esto corresponde a objetivos ≤1,663 s para n=1 000 000 y ≤4,019 s para n=2 000 000 en el entorno medido. Repetir n=300 000 porque su CV actual es 11,77 %. No afirmar ahorro energético sin RAPL/vatímetro. Condiciones de validez, diseño del piloto y riesgos: [`recomendacion.md`](recomendacion.md).
 
 ## 7. Conclusiones
 
-La línea base responde correctamente y su duración crece con n; CV supera el umbral orientativo de 10 % en n=300 000. Los resultados son preliminares y específicos de esta máquina y versión de Python.
+La línea base responde correctamente y su duración crece con n; CV supera el umbral orientativo de 10 % en n=300 000. Los resultados son preliminares y específicos de esta máquina y versión de Python. La evidencia disponible no determina si paralelizar mejora el tiempo ni la energía; la recomendación es medirlo antes de desplegar.
 
 ## 8. Referencias
 
