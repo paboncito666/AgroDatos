@@ -34,7 +34,9 @@ Resumen calculado desde las treinta corridas temporizadas. El intervalo de confi
 
 El resumen CSV generado es [`../resultados/resumen_estadistico.csv`](../resultados/resumen_estadistico.csv). Las tres mediciones separadas de pico de memoria con `tracemalloc` fueron 0,003 MiB. No hubo medición de RSS, temperatura, frecuencia ni energía.
 
-Los gráficos y la revisión de valores atípicos se incorporarán en sus etapas correspondientes de este análisis.
+La revisión exploratoria de Tukey señaló 0,449336 s (repetición 7) para n=300 000 y 5,468558 s (repetición 3) para n=2 000 000. No hay causas confirmadas en la bitácora; se conservan todas las observaciones. Para n=300 000, una sensibilidad hipotética sin la repetición 7 daría media 0,355781 s y CV 9,30 %, frente a 0,365137 s y 11,77 % usando todos los datos. El resumen oficial utiliza siempre las diez corridas. Detalles: [`analisis_atipicos.md`](analisis_atipicos.md).
+
+Los gráficos se incorporarán en su etapa correspondiente de este análisis.
 
 ## 5. Discusión
 

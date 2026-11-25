@@ -87,6 +87,7 @@ Todos participan en la comprensión de la física y el código; los nombres qued
 - [Hipótesis](docs/hipotesis.md) · [Variables experimentales](docs/variables.md) · [Protocolo](docs/protocolo.md) · [Entorno](docs/entorno.md)
 - [Decisiones técnicas](docs/decisiones.md) · [Uso de IA](docs/uso_ia.md) · [Informe](docs/informe.md)
 - [Auditoría del CSV](docs/auditoria_datos.md)
+- [Revisión de atípicos](docs/analisis_atipicos.md)
 - [Análisis estadístico y discusión](docs/informe.md)
 
 Las estrategias B y C, su comparación y las conclusiones de rendimiento del equipo siguen pendientes.

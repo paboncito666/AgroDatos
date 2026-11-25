@@ -45,6 +45,8 @@ Reportar media, desviación estándar, coeficiente de variación (CV) e interval
 
 El IC95 % usa el valor crítico t = 2,262 para 9 grados de libertad. El CV supera 10 % para `n = 300 000`; no se excluyeron corridas. Los valores completos están en `resultados/resultados.csv`.
 
+La revisión de observaciones altas y la comparación de sensibilidad sin excluir datos se documentan en [`analisis_atipicos.md`](analisis_atipicos.md). La bitácora no asocia una causa conocida a ninguna corrida formal individual.
+
 ## 6. Incidentes
 
 | Fecha | Incidente | Corridas afectadas | Decisión |
