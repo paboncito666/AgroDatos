@@ -50,6 +50,16 @@ python -m experimentos.ejecutar_experimento
 
 La medición formal utiliza `[300000, 1000000, 2000000]`, diez repeticiones, un calentamiento y orden aleatorio con semilla 42. La preparación de los lotes queda fuera del cronómetro. Las lecturas de memoria se registran aparte porque `tracemalloc` altera los tiempos. El procedimiento completo está en [`docs/protocolo.md`](docs/protocolo.md).
 
+### Resumen estadístico reproducible
+
+El analizador original de la clase 5 no estaba disponible entre los materiales locales; [`herramientas/analizar_resultados.py`](herramientas/analizar_resultados.py) implementa el resumen solicitado y excluye explícitamente las corridas `medicion_memoria=si`:
+
+```powershell
+python herramientas\analizar_resultados.py resultados\resultados.csv --salida-csv resultados\resumen_estadistico.csv
+```
+
+Los IC95 % usan t de Student; los resultados y su interpretación se detallan en [`docs/informe.md`](docs/informe.md).
+
 ## 6. Verificación y flujo de trabajo
 
 Las pruebas validan resultados conocidos de la estrategia A, incluidos los límites del intervalo. El trabajo de esta entrega se realiza en la rama `pabon`, a partir de `origin/pabon`; las pruebas y resultados se registran antes de crear el commit. La guía del curso requiere integrar cambios mediante un pull request con revisión sustantiva de otro integrante; este commit local, por sí solo, no sustituye esa revisión.
@@ -77,5 +87,6 @@ Todos participan en la comprensión de la física y el código; los nombres qued
 - [Hipótesis](docs/hipotesis.md) · [Variables experimentales](docs/variables.md) · [Protocolo](docs/protocolo.md) · [Entorno](docs/entorno.md)
 - [Decisiones técnicas](docs/decisiones.md) · [Uso de IA](docs/uso_ia.md) · [Informe](docs/informe.md)
 - [Auditoría del CSV](docs/auditoria_datos.md)
+- [Análisis estadístico y discusión](docs/informe.md)
 
 Las estrategias B y C, su comparación y las conclusiones de rendimiento del equipo siguen pendientes.
