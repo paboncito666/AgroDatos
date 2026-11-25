@@ -65,10 +65,10 @@ python -m experimentos.ejecutar_experimento --rapido
 
 | Rol | Integrante | Responsabilidad |
 |---|---|---|
-| R1 — Coordinación y protocolo | _(nombre)_ | Mantiene el protocolo, las variables controladas y la planeación. |
-| R2 — Estrategia base | _(nombre)_ | Documenta A y verifica la corrección de las estrategias. |
-| R3 — Estrategias alternativas | _(nombre)_ | Diseña B y C y explica sus efectos físicos. |
-| R4 — Medición y análisis | _(nombre)_ | Automatiza mediciones, registra CSV y analiza resultados. |
+| R1 — Coordinación y protocolo | Samuel Pabon | Mantiene el protocolo, las variables controladas y la planeación. |
+| R2 — Estrategia base | Samuel Pabon| Documenta A y verifica la corrección de las estrategias. |
+| R3 — Estrategias alternativas | juanse | Diseña B y C y explica sus efectos físicos. |
+| R4 — Medición y análisis | nicolas | Automatiza mediciones, registra CSV y analiza resultados. |
 
 Todos participan en la comprensión de la física y el código; los nombres quedan por completar por el equipo.
 
